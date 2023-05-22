@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+  <head>
+    <title>Werkstuk</title>
+    <link href="assets/reset.css" rel="stylesheet" />
+    <link href="assets/style.css" rel="stylesheet" />
+    <script type="module" src="./js/index.js" defer></script>
+  </head>
+  <body>
+        <div class="wrapper">
+            <div class="header">
+                <h1>250 TV-Shows</h1>
+            </div>
+            <div id="search-container">
+                <input type="search" id="search-input" placeholder="Search a TV Show here.." />
+                <button id="search">Search</button>
+            </div>
+            <div id="buttons">
+                <button class="button-value-1">Shuffle</button>
+                <button class="button-value-2">Year</button>
+                <button class="button-value-3">Rating</button>
+                <button class="button-value-4">A-Z</button>
+            </div>
+            <div class="container">
+                <div class="chart">
+                    <canvas id="doughnut"></canvas>
+                </div>
+            </div>
+        </div>
+        <div id="product"></div>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="chart.js"></script>
+    </body>
+</html>
